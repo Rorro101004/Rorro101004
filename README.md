@@ -49,41 +49,57 @@ Junior Software Developer and Higher Technician in **Multiplatform Application D
 
 ### Featured Projects
 
+---
+
 #### 1. Predictive Real Estate Pipeline
 > Automated data ingestion, cleansing, and predictive analytics engine for property market evaluation.
 
+<p align="center">
+  <img src="https://dummyimage.com/900x420/161b22/58a6ff.png&text=Real+Estate+Pipeline+Architecture+%2F+Visual+Preview" alt="Predictive Real Estate Pipeline" width="90%"/>
+</p>
+
+* **Context:** Developed as part of an International Mobility Agile Initiative (Romania Project).
 * **Data Engineering:** Automated multi-source extraction, filtering outliers and null records across market listings.
 * **Predictive Analytics:** Implemented modeling workflows using scientific computing libraries to forecast price trends.
 * **Impact:** Reduced manual dataset wrangling from hours per sprint to fully scripted pipelines running in under 2 minutes.
-* **Tech Stack:** `Python` `Pandas` `NumPy` `Data Scraping`
+* **Tech Stack:** 
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
 
-<p align="left">
-  <a href="https://github.com/Rorro101004"><img src="https://img.shields.io/badge/View_Code-Source-blue?style=flat-square&logo=github" alt="Source"/></a>
-</p>
 
 ---
 
 #### 2. Enterprise Financial & Invoice Automation
 > High-integrity accounting and recurring invoice automation module built for core enterprise operations.
 
+<p align="center">
+  <img src="https://dummyimage.com/900x420/161b22/239120.png&text=Enterprise+Accounting+Module+Workflow" alt="ERP Financial Automation" width="90%"/>
+</p>
+
+* **Context:** Built in production during software developer internship at BittaSoftware.
 * **Architecture:** Developed custom back-office modules integrated directly into internal ERP software.
 * **Transaction Safety:** Structured robust SQL procedures and validation business logic to eliminate duplicate invoice records.
 * **Impact:** Replaced manual cross-spreadsheet data entry, saving 5–7 administrative hours weekly.
-* **Tech Stack:** `C#` `.NET` `SQL Server / MySQL` `ERP Integration`
+* **Tech Stack:** 
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
 
-<p align="left">
-  <a href="https://github.com/Rorro101004"><img src="https://img.shields.io/badge/View_Code-Source-green?style=flat-square&logo=github" alt="Source"/></a>
-</p>
 
 ---
 
 #### 3. Clinical Box & Inventory Management
 > Real-time box scheduling, equipment tracking, and automated stock-locking application.
 
+<p align="center">
+  <img src="https://dummyimage.com/900x420/161b22/e34c26.png&text=Clinical+Management+System+Interface" alt="Clinical Management Interface" width="90%"/>
+</p>
+
+* **Context:** Advanced technical application developed at STUCOM (Barcelona).
 * **Concurrency Control:** Engineered transactional stock locks to prevent double-booking of surgical boxes and clinical equipment.
 * **Alert System:** Automated low-inventory triggers to notify administrative teams prior to stock depletion.
-* **Tech Stack:** `C#` `MySQL` `Relational Schema Design`
+* **Tech Stack:** 
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
-<p align="left">
-  <a href="https://github.com/Rorro101004"><img src="https://img.shields.io/badge/View_Code-Source-red?style=flat-square&logo=github" alt="Source"/></a>
-</p>
