@@ -15,15 +15,15 @@
 </div>
 
 ---
-
 ### About Me
 
-Higher Technician in **Multiplatform Application Development (DAM)** focused on backend architectures, workflow automation, and data handling.
+Junior Software Developer and Higher Technician in **Multiplatform Application Development (DAM)** focused on backend architectures, workflow automation, and data handling.
 
 * **Professional Experience:** Developed internal accounting and automated invoicing modules in **C#** and optimized relational databases at **BittaSoftware**.
 * **International Mobility:** Co-designed data ingestion and predictive analytics software within a cross-border agile team (Romania Project).
 * **Core Philosophy:** Writing maintainable, resilient code and replacing manual operational bottlenecks with robust automated services.
-* **Location:** Barcelona, Spain.
+* **Current Objective:** Seeking Junior Software Engineer / Backend Developer opportunities to contribute to production environments, collaborate with experienced engineering teams, and expand scalable software systems.
+* **Location:** Barcelona, Spain (Open to hybrid and remote opportunities).
 
 ---
 
