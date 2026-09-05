@@ -11,6 +11,11 @@
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
   </p>
+  <p align="center">
+  <a href="#about-me">About Me</a> •
+  <a href="#tech-stack--tooling">Tech Stack</a> •
+  <a href="#featured-projects">Featured Projects</a>
+</p>
 
 </div>
 
