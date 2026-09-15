@@ -69,3 +69,31 @@ flowchart LR
     -->|Analítica y Simulación| D["<b>Endpoints de Negocio</b><br/>• Cuadros de Mando en Power BI<br/>• Validación Operativa en SAP"]
 
     classDef default fill:#161b22,stroke:#0078d4,stroke-width:1.5px,color:#e6edf3;
+```
+* **Contexto y Colaboración Internacional:** Co-diseñado en un equipo ágil internacional (España, Suiza, Rumanía y Portugal), coordinando dailies, flujos de ramas en Git y entregas técnicas íntegramente en inglés.
+* **Arquitectura de Pipeline Medallion:**
+  * **Capa Bronze:** Extracción y almacenamiento automatizado de datos inmobiliarios y registros de mercado sin procesar.
+  * **Capa Silver:** Depuración de nulos, detección de anomalías y modelado dimensional en estrella dentro de **PostgreSQL**.
+  * **Capa Gold:** Ejecución de pipelines de agregación analítica y entrenamiento de modelos predictivos de tendencias con **Pandas** y computación científica.
+* **Reporting y Validación Operativa:** Diseño de paneles interactivos en **Power BI** e integración de salidas operativas sobre entornos **SAP** para validar casos de negocio.
+* **Impacto:** Reducción del tiempo de preparación de datos de horas de procesamiento manual por sprint a scripts automatizados ejecutables en menos de 2 minutos.
+* **Tech Stack:**
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/SAP-008FD3?style=flat-square&logo=sap&logoColor=white"/>
+
+---
+
+#### 2. Enterprise Financial & Invoice Automation
+> Módulo de facturación recurrente y automatización contable de alta integridad para operativa empresarial.
+
+```mermaid
+flowchart LR
+    A["<b>Capa de Cliente (UI)</b><br/>WinForms Desktop (.NET)<br/>• Interfaces Transaccionales<br/>• Validación de Entrada de Datos<br/>• Flujos de Trabajo Modulares"]
+    -->|Payloads Seguros HTTPS / JSON| B["<b>Capa de Lógica y API</b><br/>ASP.NET Core REST API<br/>• Controladores y Enrutamiento<br/>• Validación y Reglas de Negocio<br/>• Desacoplamiento de Cliente"]
+    -->|ADO.NET y Stored Procedures| C["<b>Capa de Persistencia</b><br/>SQL Server Database<br/>• Procedimientos Almacenados<br/>• Control de Registros Duplicados<br/>• Bloqueos Transaccionales ACID"]
+    -->|Pipeline Batch Automatizado| D["<b>Salida de Contabilidad</b><br/>Libro Mayor Empresarial<br/>• Registro Automatizado de Facturas<br/>• Procesamiento Recurrente en Lote<br/>• Informes de Cierre Financiero"]
+
+    classDef default fill:#161b22,stroke:#239120,stroke-width:1.5px,color:#e6edf3;
