@@ -120,7 +120,7 @@ flowchart LR
 
     classDef default fill:#161b22,stroke:#7f52ff,stroke-width:1.5px,color:#e6edf3;
 ```
-* **Context & Team Collaboration:** Co-engineered across an 9-month lifecycle (September to May) in a 4-developer engineering team at STUCOM (Barcelona), driving sprint iterations, Git branching strategies, and full ownership of mobile network architecture.
+* **Context & Team Collaboration:** Co-engineered across a 9-month lifecycle (September to May) in a 4-developer engineering team at STUCOM (Barcelona), driving sprint iterations, Git branching strategies, and full ownership of mobile network architecture.
 * **Mobile Client:** Built a native mobile interface in **Android Studio using Kotlin**, consuming asynchronous REST endpoints and managing real-time inventory states.
 * **Backend Architecture:** Developed a decoupled REST API with **Java & Spring Boot**, handling business logic, resource routing, and secure payload serialization.
 * **API Testing & Documentation:** Validated HTTP methods, request headers, and response payloads using **Postman** (contract testing and endpoint simulation).
@@ -184,7 +184,7 @@ flowchart LR
 
 I am currently open to **Junior Backend Developer**, **Data Engineering**, and **ERP Consulting** roles in Barcelona (hybrid or on-site).
 
-* **Email:** [roro.calderon@hotmail.com](mailto:roro.calderon@hotmail.com)
-* **LinkedIn:** [Rodrigo Calderón](https://www.linkedin.com/in/rodrigo-calderon-dev/)
+<a href="mailto:roro.calderon@hotmail.com"><img src="https://img.shields.io/badge/OUTLOOK-CONTACT_ME-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/rodrigo-calderon-dev/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 
 Feel free to reach out for technical inquiries, project collaborations, or engineering opportunities.
