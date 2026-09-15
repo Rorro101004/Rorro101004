@@ -14,7 +14,8 @@
   <p align="center">
   <a href="#about-me">About Me</a> •
   <a href="#tech-stack--tooling">Tech Stack</a> •
-  <a href="#featured-projects">Featured Projects</a>
+  <a href="#featured-projects">Featured Projects</a> •
+  <a href="#lets-connect">Contact</a>
 </p>
 
 </div>
@@ -148,3 +149,13 @@ Junior Software Developer and Higher Technician in **Multiplatform Application D
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+---
+
+### Let's Connect
+
+I am currently open to **Junior Backend Developer**, **Data Engineering**, and **ERP Consulting** roles in Barcelona (hybrid or on-site).
+
+* **Email:** [roro.calderon@hotmail.com](mailto:roro.calderon@hotmail.com)
+* **LinkedIn:** [Rodrigo Calderón](https://www.linkedin.com/in/rodrigo-calderon-dev/)
+
+Feel free to reach out for technical inquiries, project collaborations, or engineering opportunities.
