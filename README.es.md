@@ -180,3 +180,11 @@ flowchart LR
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
 
 ---
+### Contacto
+
+Actualmente disponible para posiciones de **Junior Backend Developer**, **Data Engineering** y **Consultoría ERP** en Barcelona (modalidad presencial o híbrida).
+
+<a href="mailto:roro.calderon@hotmail.com"><img src="https://img.shields.io/badge/OUTLOOK-CONTACT_ME-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/rodrigo-calderon-dev/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+
+No dudes en contactarme para consultas técnicas, colaboraciones en proyectos u oportunidades profesionales en ingeniería de software.
