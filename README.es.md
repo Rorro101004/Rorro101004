@@ -97,3 +97,31 @@ flowchart LR
     -->|Pipeline Batch Automatizado| D["<b>Salida de Contabilidad</b><br/>Libro Mayor Empresarial<br/>• Registro Automatizado de Facturas<br/>• Procesamiento Recurrente en Lote<br/>• Informes de Cierre Financiero"]
 
     classDef default fill:#161b22,stroke:#239120,stroke-width:1.5px,color:#e6edf3;
+```
+* **Contexto y Estructura del Equipo:** Desarrollado en entorno de producción durante prácticas profesionales en **BittaSoftware**, colaborando directamente en una célula técnica de 2 personas junto a la Desarrolladora Senior mediante pair programming y revisiones de código.
+* **Arquitectura e Interfaz:** Implementación de interfaces transaccionales de escritorio en **WinForms (.NET)** para optimizar la entrada administrativa de datos contables.
+* **API y Enrutamiento:** Construcción de controladores desacoplados en **ASP.NET Core** para abstraer al cliente de operaciones directas sobre base de datos y securizar payloads.
+* **Seguridad Transaccional:** Programación de stored procedures robustos en **SQL Server** con control de bloqueos y restricciones de concurrencia ACID para evitar facturas duplicadas.
+* **Impacto:** Sustitución de flujos manuales basados en hojas de cálculo, ahorrando entre 5 y 7 horas de trabajo administrativo semanales.
+* **Tech Stack:**
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WinForms-239120?style=flat-square&logo=windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+
+---
+
+#### 3. EasyTeeth · Clinical Scheduling & Dental Management System
+> Sistema multiplataforma distribuido para la coordinación en tiempo real de boxes quirúrgicos, turnos médicos y expedientes clínicos.
+
+```mermaid
+flowchart LR
+    A["<b>Cliente Móvil (Kotlin)</b><br/>• Arquitectura MVVM<br/>• Retrofit 2 + Coroutines<br/>• Ejecución Asíncrona sin Bloqueo"]
+    -->|Llamadas Asíncronas REST| B["<b>API de Enrutamiento</b><br/>• Gestión de Citas y Turnos<br/>• Activos Médicos y Odontogramas<br/>• Historial de Pacientes"]
+    -->|Spring Boot e Hibernate| C["<b>Persistencia en MySQL</b><br/>• Restricciones Relacionales<br/>• Bloqueo ACID de Quirófanos<br/>• Historiales Clínicos"]
+
+    classDef default fill:#161b22,stroke:#7f52ff,stroke-width:1.5px,color:#e6edf3;
+```
+
+
