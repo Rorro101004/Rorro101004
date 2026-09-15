@@ -26,7 +26,7 @@
 Junior Software Developer and Higher Technician in **Multiplatform Application Development (DAM)** focused on backend architectures, workflow automation, and data handling.
 
 * **Professional Experience:** Developed internal accounting and automated invoicing modules in **C#** and optimized relational databases at **BittaSoftware**.
-* **International Mobility:** Co-designed data ingestion and predictive analytics software within a cross-border agile team (Romania Project).
+* **International Mobility:** Co-designed data ingestion and predictive analytics software within a cross-border agile team (Romania Project), operating entirely in English across sprint planning, technical syncs, and codebase collaboration.
 * **Core Philosophy:** Engineering maintainable backend architectures, ERP workflows (Odoo), and replacing manual operational bottlenecks with robust automated services.
 * **Current Objective:** Seeking Junior Software Engineer / Backend Developer opportunities to contribute to production environments, collaborate with experienced engineering teams, and expand scalable software systems.
 * **Location:** Barcelona, Spain (Open to hybrid and remote opportunities).
@@ -53,33 +53,46 @@ Junior Software Developer and Higher Technician in **Multiplatform Application D
 ---
 
 #### 1. Predictive Real Estate Pipeline & Enterprise Analytics
-> Automated data ingestion, cleansing, and predictive analytics engine connected to enterprise reporting.
+> Multi-layer Medallion Architecture processing raw ingestion streams into predictive models and enterprise reporting.
 
-<p align="center">
-  <img src="https://dummyimage.com/900x420/161b22/0078d4.png&text=Real+Estate+Pipeline+Architecture+%2F+Visual+Preview" alt="Real Estate Pipeline Architecture" width="90%"/>
-</p>
+```mermaid
+flowchart LR
+    A["<b>Raw Ingestion (Bronze)</b><br/>• Multi-source listings<br/>• Python / Staging Storage"]
+    -->|Cleansing & Outlier Filtering| B["<b>Curated Storage (Silver)</b><br/>• Star Schema Modeling<br/>• PostgreSQL Relational Store"]
+    -->|Aggregations & KPIs| C["<b>Business Layer (Gold)</b><br/>• Predictive ML Models<br/>• Standardized Metric Sets"]
+    -->|Analytics & Simulation| D["<b>Enterprise Endpoints</b><br/>• Power BI Dashboards<br/>• SAP Operational Sync"]
 
-* **Context:** Developed as part of an International Mobility Agile Initiative (Romania Project).
-* **Data Engineering:** Automated multi-source extraction, filtering outliers and null records across market listings.
-* **Predictive Analytics:** Implemented modeling workflows using scientific computing libraries to forecast price trends.
-* **Enterprise Reporting & UI:** Designed interactive dashboards and application interfaces in **Power BI** to present predictive metrics to stakeholders.
-* **ERP Validation:** Integrated operational outputs into **SAP** environments to simulate and validate business use cases.
-* **Impact:** Reduced manual dataset wrangling from hours per sprint to fully scripted pipelines running in under 2 minutes.
+    classDef default fill:#161b22,stroke:#0078d4,stroke-width:1.5px,color:#e6edf3;
+```
+
+* **Context & International Collaboration:** Co-engineered in an English-speaking cross-border agile team (Spain, Switzerland, Romania, Portugal), driving daily standups, Git branch workflows, and technical handoffs entirely in English.
+* **Medallion Pipeline Architecture:**
+  * **Bronze Layer:** Automated extraction and ingestion of unstructured real estate and market feeds.
+  * **Silver Layer:** Cleaned datasets, resolved missing dimensions, and structured normalized dimensional models inside **PostgreSQL**.
+  * **Gold Layer:** Executed metric aggregation pipelines and trained predictive algorithms using **Pandas** and scientific computing modules.
+* **Enterprise Reporting & Business Validation:** Designed stakeholder dashboards in **Power BI** and mapped outputs into **SAP** environments to validate business operations.
+* **Impact:** Reduced manual dataset wrangling from hours per sprint to scripted end-to-end pipelines running in under 2 minutes.
 * **Tech Stack:**
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
   <img src="https://img.shields.io/badge/SAP-008FD3?style=flat-square&logo=sap&logoColor=white"/>
-
 
 ---
 
 #### 2. Enterprise Financial & Invoice Automation
 > High-integrity accounting and recurring invoice automation module built for core enterprise operations.
 
-<p align="center">
-  <img src="https://dummyimage.com/900x420/161b22/239120.png&text=Enterprise+Accounting+Module+Workflow" alt="ERP Financial Automation" width="90%"/>
-</p>
+```mermaid
+flowchart LR
+    A["<b>Client Layer (UI)</b><br/>WinForms Desktop Client (.NET)<br/>• Transactional Desktop Interfaces<br/>• Invoice Data Input & Validation<br/>• Modular UI Workflows"]
+    -->|Secure HTTPS / JSON Payloads| B["<b>API & Business Logic Layer</b><br/>ASP.NET Core REST API<br/>• RESTful Controllers & Routing<br/>• Model Validation & Rules<br/>• Core Transactional Logic"]
+    -->|ADO.NET & Stored Procedures| C["<b>Persistence Layer</b><br/>SQL Server Database<br/>• Robust Stored Procedures<br/>• Duplicate Elimination Logic<br/>• ACID Concurrency Locks"]
+    -->|Automated Batch Pipeline| D["<b>Accounting Module Output</b><br/>Enterprise Accounting Ledger<br/>• Automated Invoicing Records<br/>• Recurring Invoice Processing<br/>• Batch Financial Reports"]
+
+    classDef default fill:#161b22,stroke:#239120,stroke-width:1.5px,color:#e6edf3;
+```
 
 * **Context:** Built in production during software developer internship at BittaSoftware.
 * **Architecture & UI:** Developed transactional desktop interfaces using **WinForms (.NET)**, integrating modular UI workflows with backend business logic.
@@ -96,13 +109,17 @@ Junior Software Developer and Higher Technician in **Multiplatform Application D
 
 ---
 
-#### 3. Clinical Box & Inventory Management
-> Real-time box scheduling, equipment tracking, and automated stock-locking multiplatform system.
+#### 3. EasyTeeth · Clinical Scheduling & Dental Management System
+> Distributed multiplatform system coordinating real-time clinical box allocation, odontologist schedules, and patient records.
 
-<p align="center">
-  <img src="https://dummyimage.com/900x420/161b22/7f52ff.png&text=Clinical+Management+Mobile+%26+Backend+Architecture" alt="Clinical Management System Interface" width="90%"/>
-</p>
+```mermaid
+flowchart LR
+    A["<b>Android Client (Kotlin)</b><br/>• MVVM Architecture<br/>• Retrofit 2 + Coroutines<br/>• Non-blocking UI Threads"]
+    -->|Asynchronous REST Calls| B["<b>Domain Routing API</b><br/>• Scheduling & Slot Allocation<br/>• Clinical Assets & Odontograms<br/>• Patient & Medical Records"]
+    -->|Spring Boot & Hibernate| C["<b>MySQL Persistence</b><br/>• Relational Constraints<br/>• ACID Slot Reservations<br/>• Medical Histories"]
 
+    classDef default fill:#161b22,stroke:#7f52ff,stroke-width:1.5px,color:#e6edf3;
+```
 * **Context:** Full-stack distributed application engineered at STUCOM (Barcelona).
 * **Mobile Client:** Built a native mobile interface in **Android Studio using Kotlin**, consuming asynchronous REST endpoints and managing real-time inventory states.
 * **Backend Architecture:** Developed a decoupled REST API with **Java & Spring Boot**, handling business logic, resource routing, and secure payload serialization.
