@@ -123,5 +123,30 @@ flowchart LR
 
     classDef default fill:#161b22,stroke:#7f52ff,stroke-width:1.5px,color:#e6edf3;
 ```
+* **Contexto y Trabajo en Equipo:** Co-desarrollado a lo largo de un ciclo de 9 meses (septiembre a mayo) en un equipo de 4 desarrolladores en STUCOM (Barcelona), liderando las iteraciones ágiles, estrategias de branching en Git y la arquitectura de consumo de red en Android.
+* **Cliente Móvil:** Desarrollo de interfaz móvil nativa en **Android Studio con Kotlin**, consumiendo servicios REST asíncronos mediante **Retrofit 2** y **Coroutines (`suspend fun`)** sin retardo en el hilo visual.
+* **Arquitectura de Backend:** API REST modular construida con **Java y Spring Boot**, gestionando disponibilidad de turnos odontológicos (`/available-slots`) y resolución de concurrencia por box clínico.
+* **Testing y Documentación:** Validación de métodos HTTP, contratos JSON y simulación de estados de error mediante suites en **Postman**.
+* **Integridad Relacional:** Modelado de bloqueos a nivel de base de datos en **MySQL** para prevenir duplicidades o colisiones horarias en reservas simultáneas.
+* **Tech Stack:** 
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
+---
+
+#### 4. Custom ERP & Business Workflow Automation
+> Desarrollo de módulos a medida, ampliación de lógica de negocio e integración relacional sobre el ecosistema Odoo.
+
+```mermaid
+flowchart LR
+    A["<b>Capa de Presentación (UI)</b><br/>Interfaz Web Odoo<br/>• Vistas y Formularios XML<br/>• Layouts Kanban y Árbol<br/>• Disparadores de Acciones"]
+    -->|Peticiones de Usuario y RPC| B["<b>Capa de Lógica de Negocio</b><br/>Python y Odoo ORM<br/>• Reglas de Negocio Modulares<br/>• Campos Computados Automáticos<br/>• Hooks de Eventos del Pipeline"]
+    -->|Consultas Relacionales ORM| C["<b>Capa de Persistencia</b><br/>Base de Datos PostgreSQL<br/>• Control de Integridad Relacional<br/>• Bloqueo Transaccional de Tablas<br/>• Auditoría Automatizada de Datos"]
+    -->|Automatización de Flujos| D["<b>Salida Operativa</b><br/>Flujos Empresariales<br/>• Actualización de Stock en Tiempo Real<br/>• Pedidos de Venta Automatizados<br/>• Exportaciones Sincronizadas"]
+
+    classDef default fill:#161b22,stroke:#714B67,stroke-width:1.5px,color:#e6edf3;
 
