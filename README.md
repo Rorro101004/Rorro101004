@@ -1,8 +1,10 @@
 <div align="center">
 
   <h1>Rodrigo Calderón</h1>
- <h3>Multiplatform Application Developer · Backend, ERP & Data Pipelines</h3>
-
+  <h3>Multiplatform Application Developer · Backend, ERP & Data Pipelines</h3>
+  <p align="center">
+    <b>English</b> | <a href="./README.es.md">Español</a>
+  </p>
   <p>
     <a href="mailto:roro.calderon@hotmail.com">
       <img src="https://img.shields.io/badge/Outlook-Contact_Me-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
