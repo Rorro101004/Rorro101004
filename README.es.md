@@ -58,7 +58,7 @@ Desarrollador de Software Junior y Técnico Superior en **Desarrollo de Aplicaci
 
 ---
 
-#### 1. Predictive Real Estate Pipeline & Enterprise Analytics
+#### 1. Pipeline Predictivo Inmobiliario & Analítica Empresarial
 > Arquitectura Medallion multicapa para el procesamiento de flujos de datos en crudo hacia modelos predictivos y reporting empresarial.
 
 ```mermaid
@@ -86,7 +86,7 @@ flowchart LR
 
 ---
 
-#### 2. Enterprise Financial & Invoice Automation
+#### 2. Automatización Contable & Facturación Empresarial
 > Módulo de facturación recurrente y automatización contable de alta integridad para operativa empresarial.
 
 ```mermaid
@@ -112,7 +112,7 @@ flowchart LR
 
 ---
 
-#### 3. EasyTeeth · Clinical Scheduling & Dental Management System
+#### 3. EasyTeeth · Sistema de Gestión Clínica & Planificación Dental
 > Sistema multiplataforma distribuido para la coordinación en tiempo real de boxes quirúrgicos, turnos médicos y expedientes clínicos.
 
 ```mermaid
@@ -138,7 +138,7 @@ flowchart LR
 
 ---
 
-#### 4. Custom ERP & Business Workflow Automation
+#### 4. Automatización de Flujos Empresariales & ERP a Medida
 > Desarrollo de módulos a medida, ampliación de lógica de negocio e integración relacional sobre el ecosistema Odoo.
 
 ```mermaid
