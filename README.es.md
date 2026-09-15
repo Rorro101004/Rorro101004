@@ -149,4 +149,13 @@ flowchart LR
     -->|Automatización de Flujos| D["<b>Salida Operativa</b><br/>Flujos Empresariales<br/>• Actualización de Stock en Tiempo Real<br/>• Pedidos de Venta Automatizados<br/>• Exportaciones Sincronizadas"]
 
     classDef default fill:#161b22,stroke:#714B67,stroke-width:1.5px,color:#e6edf3;
+```
+* **Contexto y Colaboración en Equipo:** Co-desarrollado en un equipo de 3 desarrolladores en STUCOM (Barcelona), colaborando en la especificación técnica de módulos, flujos de control de versiones y mapeo de requerimientos operativos.
+* **Arquitectura de Negocio:** Desarrollo de extensiones modulares utilizando **Python** y el **ORM de Odoo** para automatizar el flujo operativo de ventas y gestión de inventario.
+* **Integración de Datos:** Definición de restricciones relacionales y persistencia automatizada de registros respaldada por **PostgreSQL**.
+* **Tech Stack:**
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
 
+---
