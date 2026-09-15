@@ -169,3 +169,14 @@ flowchart LR
     -->|Simulación de Compra| C["<b>Capa de Simulación de Referidos</b><br/>Prototipo de Ticketing<br/>• Redirección con Enlaces Profundos<br/>• Simulación de Reserva de Plaza<br/>• Modelos de Tráfico Saliente"]
 
     classDef default fill:#161b22,stroke:#f7df1e,stroke-width:1.5px,color:#e6edf3;
+```
+* **Contexto y Colaboración en Equipo:** Desarrollado en un equipo de 3 integrantes en STUCOM (Barcelona) como una Prueba de Concepto (PoC) frontend para evaluar la velocidad de renderizado en el DOM con JavaScript puro y validar experiencias de usuario.
+* **Arquitectura del Cliente:** Implementación de algoritmos de filtrado dinámico en **JavaScript vanilla** procesando datasets JSON estructurados para simular consultas en tiempo real por proximidad geográfica y tipología de evento.
+* **Simulación de Flujo de Conversión:** Diseño de patrones de *deep-linking* saliente emulando la transferencia fluida del usuario hacia plataformas externas de ticketing y asignación de asientos.
+* **Maquetación sin Dependencias:** Construcción de una interfaz ligera y *mobile-first* mediante **HTML5** semántico y **CSS3** moderno (Flexbox/Grid), eliminando la sobrecarga de dependencias pesadas.
+* **Tech Stack:**
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+
+---
