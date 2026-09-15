@@ -94,7 +94,7 @@ flowchart LR
     classDef default fill:#161b22,stroke:#239120,stroke-width:1.5px,color:#e6edf3;
 ```
 
-* **Context:** Built in production during software developer internship at BittaSoftware.
+* **Context & Team Structure:** Developed in production during software developer internship at **BittaSoftware**, collaborating directly in a 2-person engineering unit alongside the Senior Lead Developer through pair programming and code reviews.
 * **Architecture & UI:** Developed transactional desktop interfaces using **WinForms (.NET)**, integrating modular UI workflows with backend business logic.
 * **API & Routing:** Implemented RESTful controllers and endpoint routing in **ASP.NET Core** to decouple desktop clients from database operations and secure data payloads.
 * **Transaction Safety:** Structured robust SQL Server stored procedures and validation logic to eliminate duplicate invoice records and handle concurrency.
@@ -120,7 +120,7 @@ flowchart LR
 
     classDef default fill:#161b22,stroke:#7f52ff,stroke-width:1.5px,color:#e6edf3;
 ```
-* **Context:** Full-stack distributed application engineered at STUCOM (Barcelona).
+* **Context & Team Collaboration:** Co-engineered across an 9-month lifecycle (September to May) in a 4-developer engineering team at STUCOM (Barcelona), driving sprint iterations, Git branching strategies, and full ownership of mobile network architecture.
 * **Mobile Client:** Built a native mobile interface in **Android Studio using Kotlin**, consuming asynchronous REST endpoints and managing real-time inventory states.
 * **Backend Architecture:** Developed a decoupled REST API with **Java & Spring Boot**, handling business logic, resource routing, and secure payload serialization.
 * **API Testing & Documentation:** Validated HTTP methods, request headers, and response payloads using **Postman** (contract testing and endpoint simulation).
@@ -138,12 +138,19 @@ flowchart LR
 #### 4. Custom ERP & Business Workflow Automation
 > Custom module development, business logic extension, and data integration within Odoo ecosystem.
 
-<p align="center">
-  <img src="https://dummyimage.com/900x420/161b22/714b67.png&text=Odoo+ERP+Module+Workflow" alt="Odoo ERP Workflow" width="90%"/>
-</p>
+```mermaid
+flowchart LR
+    A["<b>UI & Presentation Layer</b><br/>Odoo Web Interface<br/>• Custom XML Views & Forms<br/>• Kanban & Tree Layouts<br/>• Operational Action Triggers"]
+    -->|User Requests & RPC| B["<b>Business Logic Layer</b><br/>Python & Odoo ORM<br/>• Modular Business Rules<br/>• Automated Record Computed Fields<br/>• Pipeline Event Hooks"]
+    -->|ORM Relational Queries| C["<b>Persistence Layer</b><br/>PostgreSQL Database<br/>• Relational Integrity Checks<br/>• Transactional Table Locking<br/>• Automated Record Auditing"]
+    -->|Workflow Automation| D["<b>Operational Output</b><br/>Enterprise Workflows<br/>• Real-Time Inventory Updates<br/>• Automated Sales Orders<br/>• Synchronization Exports"]
 
-* **Architecture:** Developed modular extensions using Python and Odoo ORM to automate sales and inventory operational flows.
-* **Data Integration:** Designed relational database constraints and automated record synchronization backed by PostgreSQL.
+    classDef default fill:#161b22,stroke:#714B67,stroke-width:1.5px,color:#e6edf3;
+```
+
+* **Context & Team Collaboration:** Co-developed within a 3-developer team at STUCOM (Barcelona), collaborating on module specifications, version control workflows, and business requirement mapping.
+* **Architecture:** Developed modular extensions using **Python** and **Odoo ORM** to automate sales and inventory operational flows.
+* **Data Integration:** Designed relational database constraints and automated record synchronization backed by **PostgreSQL**.
 * **Tech Stack:**
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white"/>
@@ -154,14 +161,19 @@ flowchart LR
 #### 5. NexTech · Tech Event Discovery & Ticketing Portal
 > Geolocation-aware discovery platform aggregating regional tech events with direct ticketing routing.
 
-<p align="center">
-  <img src="https://dummyimage.com/900x420/161b22/f7df1e.png&text=NexTech+Discovery+Portal+Architecture" alt="NexTech Event Portal" width="90%"/>
-</p>
+```mermaid
+flowchart LR
+    A["<b>Client Browser & UI</b><br/>Semantic HTML5 & CSS3<br/>• Mobile-First Responsive Grid<br/>• Dynamic Event Catalog View<br/>• Category & Proximity Inputs"]
+    -->|DOM Events & Filtering| B["<b>Client-Side Logic (PoC)</b><br/>Vanilla JavaScript Engine<br/>• Event State & Filtering Engine<br/>• Mock Dataset Ingestion (JSON)<br/>• Dynamic DOM Node Injection"]
+    -->|Simulated Checkout Flow| C["<b>Referral Simulation Layer</b><br/>Ticketing Prototype<br/>• Mock Deep-Link Redirections<br/>• Simulated Seat Reservation<br/>• Outbound Navigation Models"]
 
-* **Event Aggregation:** Engineered an indexing interface to categorize regional tech conferences, hackathons, and workshops based on proximity.
-* **Client-Side Routing & Logic:** Implemented dynamic DOM rendering and asynchronous event filtering using vanilla **JavaScript**.
-* **Referral Architecture:** Structured deep-linking workflows to route users directly to third-party vendor platforms for ticket checkout and seat reservation.
-* **Responsive Design:** Built a mobile-first UI using semantic **HTML5** and custom **CSS3** grid/flexbox layouts without heavy external dependencies.
+    classDef default fill:#161b22,stroke:#f7df1e,stroke-width:1.5px,color:#e6edf3;
+```
+
+* **Context & Team Collaboration:** Built in a 3-developer team at STUCOM (Barcelona) as a frontend Proof of Concept (PoC) to benchmark vanilla JavaScript DOM rendering speeds and simulate user journeys.
+* **Client-Side Architecture:** Implemented dynamic filtering algorithms in **vanilla JavaScript** using structured mock JSON datasets to simulate real-time search queries by category and proximity.
+* **Referral Flow Simulation:** Designed deep-linking outbound patterns to emulate user handoffs to third-party vendor platforms for ticket checkout and seat allocations.
+* **Zero-Dependency Styling:** Structured a lightweight, mobile-first interface using semantic **HTML5** and modern **CSS3** (Flexbox/Grid), eliminating heavy UI framework overhead.
 * **Tech Stack:**
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
