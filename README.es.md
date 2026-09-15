@@ -159,3 +159,13 @@ flowchart LR
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
 
 ---
+#### 5. NexTech · Portal de Descubrimiento de Eventos Tech & Ticketing (Frontend PoC)
+> Plataforma de descubrimiento basada en geolocalización que centraliza eventos tecnológicos regionales con redirección de compra de entradas.
+
+```mermaid
+flowchart LR
+    A["<b>Navegador y UI</b><br/>HTML5 Semántico y CSS3<br/>• Grid Responsivo Mobile-First<br/>• Catálogo Dinámico de Eventos<br/>• Entradas de Categoría y Zona"]
+    -->|Eventos del DOM y Filtrado| B["<b>Lógica en Cliente (PoC)</b><br/>Motor Vanilla JavaScript<br/>• Motor de Filtrado y Estado<br/>• Ingesta de Datos Simulados (JSON)<br/>• Inyección Dinámica en el DOM"]
+    -->|Simulación de Compra| C["<b>Capa de Simulación de Referidos</b><br/>Prototipo de Ticketing<br/>• Redirección con Enlaces Profundos<br/>• Simulación de Reserva de Plaza<br/>• Modelos de Tráfico Saliente"]
+
+    classDef default fill:#161b22,stroke:#f7df1e,stroke-width:1.5px,color:#e6edf3;
