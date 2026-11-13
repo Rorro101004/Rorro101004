@@ -53,58 +53,59 @@ Desarrollador de software junior (Técnico Superior en **Desarrollo de Aplicacio
 
 ## Experiencia
 
-<details>
-<summary><b>Desarrollador de Software en Prácticas · BittaSoftware</b> - automatización contable y facturación recurrente (código privado)</summary>
+<details open>
+<summary><b>Desarrollador de Software en Prácticas — BittaSoftware</b> · <code>C# · .NET · SQL Server</code></summary>
 
 <br>
 
 ```mermaid
 flowchart LR
-    A["Cliente WinForms (.NET)<br/>entrada y validación de facturas"] -->|HTTPS / JSON| B["API REST ASP.NET Core<br/>reglas de negocio"]
-    B -->|ADO.NET, stored procedures| C["SQL Server<br/>control de duplicados, bloqueos ACID"]
-    C -->|pipeline por lotes| D["Libro contable<br/>facturación recurrente e informes"]
+    A["Cliente de Escritorio (C# / .NET)<br/>Flujos de contabilidad y facturación"] -->|Validación de negocio| B["Servicios de Aplicación<br/>Facturación recurrente y control financiero"]
+    B -->|ADO.NET y Stored Procedures| C["SQL Server<br/>Bloqueos ACID y deduplicación"]
+    C -->|Ejecución por lotes| D["Libro Contable<br/>Facturación automatizada e informes de cierre"]
 ```
 
-- Desarrollo de interfaces de escritorio transaccionales en **WinForms (.NET)** conectadas a una capa REST en **ASP.NET Core**.
-- Programación de procedimientos almacenados y validaciones en **SQL Server** para evitar facturas duplicadas bajo concurrencia.
-- Trabajo en una unidad de 2 personas junto a la desarrolladora sénior (pair programming y revisión de código).
-- Impacto: sustitución de carga manual entre hojas de cálculo, ahorrando entre 5 y 7 horas administrativas por semana.
+- **Aplicaciones de Escritorio Internas:** Desarrollo y despliegue en producción de aplicaciones internas de escritorio en **C# (.NET / WinForms)** orientadas a automatizar procesos de contabilidad, ciclos de facturación recurrente y control financiero.
+- **Arquitectura de Base de Datos y Concurrencia:** Diseño de esquemas relacionales, procedimientos almacenados transaccionales y reglas de deduplicación con bloqueos ACID en **SQL Server** para garantizar la integridad del libro mayor frente a accesos concurrentes.
+- **Metodología de Ingeniería:** Trabajo directo en una unidad técnica de 2 personas junto a la Desarrolladora Sénior mediante *pair programming*, revisiones de código y despliegues iterativos en entorno productivo.
+- **Impacto Operativo:** Sustitución de conciliaciones manuales entre hojas de cálculo, ahorrando **entre 5 y 7 horas administrativas por semana** y eliminando duplicidades en facturación.
+
+</details>
+
+<details open>
+<summary><b>Proyecto Internacional de Ingeniería de Datos — Timișoara, Rumanía</b> · <code>Python · Docker · PostgreSQL</code></summary>
+
+<br>
+
+```mermaid
+flowchart LR
+    A["Capa Bronze (Python / Docker)<br/>+400.000 ficheros de telemetría"] -->|Limpieza y filtrado de outliers| B["Capa Silver (PostgreSQL)<br/>Esquema en Estrella (Star Schema)"]
+    B -->|Agregaciones de KPIs| C["Capa Gold (pandas)<br/>Datasets analíticos y predictivos"]
+    C -->|Sincronización BI y ERP| D["Endpoints de Negocio<br/>Paneles Power BI y validación en SAP"]
+```
+
+- **Arquitectura de Datos Medallion:** Co-diseño y contenedorización de un pipeline **Bronze / Silver / Gold** con **Python** y **Docker** capaz de ingestar, parsear y normalizar **más de 400.000 ficheros de telemetría de sensores**.
+- **Modelado Dimensional (Esquema en Estrella):** Transformación de flujos masivos de telemetría hacia un **esquema en estrella (*star schema*) en PostgreSQL** (tablas de hechos y dimensiones), resolviendo dimensiones ausentes, valores nulos y anomalías de captura.
+- **Analítica y Colaboración Internacional:** Construcción de agregaciones en capa Gold con **pandas** conectadas a cuadros de mando en **Power BI** y validación operativa en **SAP**, trabajando **100 % en inglés** dentro de un equipo ágil internacional (Rumanía, Suiza, Portugal y España).
+- **Impacto Operativo:** Reducción del tiempo de preparación e integración de datos de horas de trabajo manual por sprint a ejecuciones reproducibles en contenedores en **menos de 2 minutos**.
 
 </details>
 
 <details>
-<summary><b>Proyecto internacional (Rumanía)</b> - pipeline predictivo inmobiliario y analítica (código privado)</summary>
+<summary><b>Personalización de ERP para Sector Joyero — Odoo (STUCOM)</b> · <code>Odoo ERP · Python · PostgreSQL</code></summary>
 
 <br>
 
 ```mermaid
 flowchart LR
-    A["Bronze<br/>ingesta multifuente (Python)"] -->|limpieza y outliers| B["Silver<br/>esquema en estrella (PostgreSQL)"]
-    B -->|agregaciones y KPIs| C["Gold<br/>modelos predictivos"]
-    C -->|reporting| D["Paneles Power BI<br/>validación en SAP"]
+    A["Vistas Web Odoo (XML)<br/>Kanban, formularios y plantillas"] -->|RPC| B["ORM de Odoo (Python)<br/>Materiales, variantes y reglas de precio"]
+    B -->|Consultas relacionales| C["PostgreSQL<br/>Trazabilidad de stock y restricciones"]
+    C -->|Flujo ERP integral| D["Operativa de Joyería<br/>Compras, ventas, albaranes y facturación"]
 ```
 
-- Pipeline con arquitectura Medallion co-diseñado en un equipo ágil internacional (España, Suiza, Rumanía y Portugal), trabajando íntegramente en inglés.
-- Capa Silver modelada en **PostgreSQL**; agregaciones y modelos predictivos en capa Gold con **pandas**.
-- Cuadros de mando en **Power BI** y mapeo de salidas operativas hacia **SAP**.
-- Impacto: reducción de la preparación manual de datos de horas por sprint a ejecuciones automatizadas en menos de 2 minutos.
-
-</details>
-
-<details>
-<summary><b>Proyecto académico · STUCOM</b> - módulos ERP a medida en Odoo (código privado)</summary>
-
-<br>
-
-```mermaid
-flowchart LR
-    A["Interfaz web Odoo<br/>vistas XML, kanban y formularios"] -->|RPC| B["Python + Odoo ORM<br/>reglas de negocio y campos computados"]
-    B -->|consultas ORM| C["PostgreSQL<br/>restricciones y auditoría"]
-    C -->|automatización| D["Flujos de ventas e inventario"]
-```
-
-- Extensiones modulares en **Python** con el **ORM de Odoo** para automatizar flujos de ventas e inventario en un equipo de 3 desarrolladores.
-- Restricciones relacionales y sincronización automatizada de registros sobre **PostgreSQL**.
+- **Solución ERP Vertical para Joyería:** Diseño e implementación de una solución personalizada sobre **Odoo ERP** adaptada a la operativa de una **empresa de joyería** dentro de un equipo de 3 desarrolladores.
+- **Adaptación Integral de Módulos:** Extensión de modelos en **Python (ORM de Odoo)** y vistas XML cubriendo el ciclo completo de **compras, pedidos de venta, gestión de materiales y metales preciosos, variantes de producto, albaranes de entrega y facturación**.
+- **Integridad Relacional:** Definición de reglas de trazabilidad de inventario, campos computados de valoración y restricciones transaccionales sobre **PostgreSQL**.
 
 </details>
 

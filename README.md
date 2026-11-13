@@ -53,58 +53,59 @@ Junior software developer (Higher Technician in **Multiplatform Application Deve
 
 ## Experience
 
-<details>
-<summary><b>Software Developer Intern · BittaSoftware</b> - accounting and recurring invoicing automation (private code)</summary>
+<details open>
+<summary><b>Software Developer Intern — BittaSoftware</b> · <code>C# · .NET · SQL Server</code></summary>
 
 <br>
 
 ```mermaid
 flowchart LR
-    A["WinForms client (.NET)<br/>invoice input and validation"] -->|HTTPS / JSON| B["ASP.NET Core REST API<br/>business rules"]
-    B -->|ADO.NET, stored procedures| C["SQL Server<br/>duplicate control, ACID locks"]
-    C -->|batch pipeline| D["Accounting ledger<br/>recurring invoices, reports"]
+    A["Desktop Client (C# / .NET)<br/>Accounting & invoicing workflows"] -->|Business validation| B["Application Services<br/>Recurring billing & financial control"]
+    B -->|ADO.NET & Stored Procedures| C["SQL Server<br/>ACID locks & deduplication"]
+    C -->|Batch execution| D["Financial Ledger<br/>Automated invoicing & closing reports"]
 ```
 
-- Built transactional desktop interfaces in **WinForms (.NET)** connected to an **ASP.NET Core** REST layer.
-- Wrote **SQL Server** stored procedures and validation logic to prevent duplicate invoices under concurrency.
-- Worked in a 2-person unit with the senior lead developer (pair programming, code reviews).
-- Impact: replaced manual cross-spreadsheet entry, saving 5-7 administrative hours per week.
+- **Internal Desktop Applications:** Engineered and deployed production desktop tools in **C# (.NET / WinForms)** tailored to automate core accounting workflows, recurring billing cycles, and internal financial control.
+- **Database Architecture & Concurrency:** Designed **SQL Server** schemas, transactional stored procedures, and strict deduplication constraints with ACID locking to guarantee ledger integrity under concurrent operations.
+- **Engineering Workflow:** Collaborated in a 2-person engineering unit alongside the Senior Lead Developer through pair programming, code reviews, and iterative production deployments.
+- **Operational Impact:** Replaced manual cross-spreadsheet reconciliation, saving **5–7 administrative hours per week** and eliminating duplicate billing entries.
+
+</details>
+
+<details open>
+<summary><b>International Data Engineering Project — Timișoara, Romania</b> · <code>Python · Docker · PostgreSQL</code></summary>
+
+<br>
+
+```mermaid
+flowchart LR
+    A["Bronze Layer (Python / Docker)<br/>400,000+ sensor telemetry files"] -->|Cleansing & outlier filtering| B["Silver Layer (PostgreSQL)<br/>Dimensional Star Schema"]
+    B -->|KPI aggregations| C["Gold Layer (pandas)<br/>Analytical & predictive datasets"]
+    C -->|BI & Enterprise sync| D["Reporting Endpoints<br/>Power BI dashboards & SAP validation"]
+```
+
+- **Medallion Data Architecture:** Co-architected a containerized **Bronze / Silver / Gold** pipeline using **Python** and **Docker** to ingest, parse, and normalize **400,000+ raw sensor telemetry files**.
+- **Dimensional Modeling (Star Schema):** Transformed high-volume telemetry streams into a normalized **star schema in PostgreSQL** (fact and dimension tables), resolving missing dimensions, schema drift, and sensor outliers.
+- **Analytics & Cross-Border Delivery:** Built Gold-layer aggregations with **pandas** feeding **Power BI** dashboards and **SAP** validation workflows, operating **100 % in English** within a distributed international agile team (Romania, Switzerland, Portugal, Spain).
+- **Operational Impact:** Cut end-to-end dataset preparation from hours of manual processing per sprint to reproducible containerized runs completing in **under 2 minutes**.
 
 </details>
 
 <details>
-<summary><b>International project (Romania)</b> - predictive real-estate pipeline and analytics (private code)</summary>
+<summary><b>Jewelry Retail ERP Customization — Odoo (STUCOM)</b> · <code>Odoo ERP · Python · PostgreSQL</code></summary>
 
 <br>
 
 ```mermaid
 flowchart LR
-    A["Bronze<br/>multi-source ingestion (Python)"] -->|cleansing, outliers| B["Silver<br/>star schema (PostgreSQL)"]
-    B -->|aggregations, KPIs| C["Gold<br/>predictive models"]
-    C -->|reporting| D["Power BI dashboards<br/>SAP validation"]
+    A["Odoo Web Views (XML)<br/>Kanban, forms & document templates"] -->|RPC| B["Odoo ORM (Python)<br/>Materials, variants & pricing rules"]
+    B -->|Relational queries| C["PostgreSQL<br/>Stock traceability & constraints"]
+    C -->|End-to-end ERP flow| D["Jewelry Operations<br/>Purchases, sales, delivery notes & invoicing"]
 ```
 
-- Medallion pipeline built in a cross-border agile team (Spain, Switzerland, Romania, Portugal), working entirely in English.
-- Silver layer modelled in **PostgreSQL**; gold layer aggregations and predictive models with **pandas**.
-- Stakeholder dashboards in **Power BI** and output mapping into **SAP**.
-- Impact: manual data preparation reduced from hours per sprint to scripted runs under 2 minutes.
-
-</details>
-
-<details>
-<summary><b>Academic project · STUCOM</b> - custom Odoo ERP modules (private code)</summary>
-
-<br>
-
-```mermaid
-flowchart LR
-    A["Odoo web UI<br/>XML views, kanban, forms"] -->|RPC| B["Python + Odoo ORM<br/>business rules, computed fields"]
-    B -->|ORM queries| C["PostgreSQL<br/>constraints, auditing"]
-    C -->|automation| D["Sales and inventory workflows"]
-```
-
-- Modular extensions in **Python** with the **Odoo ORM** to automate sales and inventory flows, team of 3.
-- Relational constraints and automated record synchronization on **PostgreSQL**.
+- **Industry-Specific ERP Solution:** Designed and implemented a custom **Odoo ERP** vertical for a **jewelry retail & manufacturing business** within a 3-developer engineering team.
+- **End-to-End Module Customization:** Extended core **Python (Odoo ORM)** models and XML views across **purchasing, sales orders, raw material & precious metal tracking, multi-attribute product variants, delivery notes (*albaranes*), and automated invoicing**.
+- **Relational Integrity:** Enforced stock traceability, computed valuation fields, and transactional constraints backed by **PostgreSQL**.
 
 </details>
 
