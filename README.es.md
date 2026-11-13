@@ -54,21 +54,21 @@ Desarrollador de software junior (Técnico Superior en **Desarrollo de Aplicacio
 ## Experiencia
 
 <details open>
-<summary><b>Desarrollador de Software en Prácticas — BittaSoftware</b> · <code>C# · .NET · SQL Server</code></summary>
+<summary><b>Desarrollador de Software en Prácticas — BittaSoftware</b> · <code>C# · .NET WinForms · SQL Server</code></summary>
 
 <br>
 
 ```mermaid
 flowchart LR
-    A["Cliente de Escritorio (C# / .NET)<br/>Flujos de contabilidad y facturación"] -->|Validación de negocio| B["Servicios de Aplicación<br/>Facturación recurrente y control financiero"]
-    B -->|ADO.NET y Stored Procedures| C["SQL Server<br/>Bloqueos ACID y deduplicación"]
-    C -->|Ejecución por lotes| D["Libro Contable<br/>Facturación automatizada e informes de cierre"]
+    A["Equipo Contable<br/>Requisitos y tareas repetitivas"] -->|Feedback y validación| B["C# / .NET WinForms<br/>Aplicaciones de escritorio"]
+    B -->|Extracción y agrupación| C["SQL Server<br/>Datos de facturas y clientes"]
+    C -->|Resultado consolidado| D["Operativa Diaria<br/>Gestión automatizada de datos"]
 ```
 
-- **Aplicaciones de Escritorio Internas:** Desarrollo y despliegue en producción de aplicaciones internas de escritorio en **C# (.NET / WinForms)** orientadas a automatizar procesos de contabilidad, ciclos de facturación recurrente y control financiero.
-- **Arquitectura de Base de Datos y Concurrencia:** Diseño de esquemas relacionales, procedimientos almacenados transaccionales y reglas de deduplicación con bloqueos ACID en **SQL Server** para garantizar la integridad del libro mayor frente a accesos concurrentes.
-- **Metodología de Ingeniería:** Trabajo directo en una unidad técnica de 2 personas junto a la Desarrolladora Sénior mediante *pair programming*, revisiones de código y despliegues iterativos en entorno productivo.
-- **Impacto Operativo:** Sustitución de conciliaciones manuales entre hojas de cálculo, ahorrando **entre 5 y 7 horas administrativas por semana** y eliminando duplicidades en facturación.
+- **Contexto y Equipo:** Desarrollo de herramientas internas en una empresa de contabilidad dentro de un equipo de 2 programadores (mi jefa/desarrolladora senior y yo), trabajando sobre un repositorio privado de la empresa.
+- **Toma de Requisitos con Usuarios Finales:** Contacto directo con compañeros (los propios contables y usuarios internos) para detectar tareas repetitivas o tediosas en su flujo diario —como la recopilación manual de datos dispersos entre distintas facturas y clientes— y documentar qué herramientas les facilitarían el trabajo.
+- **Desarrollo Iterativo en Escritorio:** Diseño e implementación de aplicaciones internas de escritorio en **C# (.NET / WinForms)** conectadas a **SQL Server** para automatizar la extracción, agrupación y gestión de datos de facturas y clientes.
+- **Ciclo de Feedback Continuo:** Comunicación constante tanto con los usuarios finales (validando la usabilidad en su día a día) como con mi jefa (revisando la implementación técnica y aplicando mejoras iterativas).
 
 </details>
 

@@ -54,21 +54,21 @@ Junior software developer (Higher Technician in **Multiplatform Application Deve
 ## Experience
 
 <details open>
-<summary><b>Software Developer Intern — BittaSoftware</b> · <code>C# · .NET · SQL Server</code></summary>
+<summary><b>Software Developer Intern — BittaSoftware</b> · <code>C# · .NET WinForms · SQL Server</code></summary>
 
 <br>
 
 ```mermaid
 flowchart LR
-    A["Desktop Client (C# / .NET)<br/>Accounting & invoicing workflows"] -->|Business validation| B["Application Services<br/>Recurring billing & financial control"]
-    B -->|ADO.NET & Stored Procedures| C["SQL Server<br/>ACID locks & deduplication"]
-    C -->|Batch execution| D["Financial Ledger<br/>Automated invoicing & closing reports"]
+    A["Accounting Staff<br/>Requirements & daily bottlenecks"] -->|Feedback & validation| B["C# / .NET WinForms<br/>Internal desktop tools"]
+    B -->|Data extraction & grouping| C["SQL Server<br/>Invoices & client records"]
+    C -->|Consolidated output| D["Daily Operations<br/>Automated data management"]
 ```
 
-- **Internal Desktop Applications:** Engineered and deployed production desktop tools in **C# (.NET / WinForms)** tailored to automate core accounting workflows, recurring billing cycles, and internal financial control.
-- **Database Architecture & Concurrency:** Designed **SQL Server** schemas, transactional stored procedures, and strict deduplication constraints with ACID locking to guarantee ledger integrity under concurrent operations.
-- **Engineering Workflow:** Collaborated in a 2-person engineering unit alongside the Senior Lead Developer through pair programming, code reviews, and iterative production deployments.
-- **Operational Impact:** Replaced manual cross-spreadsheet reconciliation, saving **5–7 administrative hours per week** and eliminating duplicate billing entries.
+- **Context & Team:** Developed internal tooling at an accounting firm within a 2-person development team (my manager/senior developer and myself), collaborating in a private company repository.
+- **Requirements Gathering with End Users:** Worked directly with internal colleagues (accountants and staff) to identify repetitive daily tasks—such as manually collecting scattered data across invoices and clients—and documented tool requirements to streamline their workflow.
+- **Iterative Desktop Development:** Designed and implemented internal desktop applications in **C# (.NET / WinForms)** connected to **SQL Server** to automate the extraction, grouping, and management of invoice and client records.
+- **Continuous Feedback Loop:** Maintained ongoing collaboration with both end users (validating usability in real workflows) and my senior lead (reviewing technical implementation and shipping iterative improvements).
 
 </details>
 
