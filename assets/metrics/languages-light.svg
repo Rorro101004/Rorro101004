@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="Most used languages">
+  <title>Most used languages</title>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="12" fill="#FAF7F2" stroke="#E3D9CC"/>
+  <text x="24" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#2B241E">Most used languages</text>
+  <text x="576" y="36" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#5E5246">updated 2026-11-13</text>
+  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#2B241E">Kotlin</text>
+  <text x="284" y="72" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5E5246">30.1%</text>
+  <rect x="24" y="82" width="260" height="6" rx="3" fill="#EDE5DA"/>
+  <rect x="24" y="82" width="78.3" height="6" rx="3" fill="#7A6248"/>
+  <text x="24" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#2B241E">Python</text>
+  <text x="284" y="120" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5E5246">24.3%</text>
+  <rect x="24" y="130" width="260" height="6" rx="3" fill="#EDE5DA"/>
+  <rect x="24" y="130" width="63.3" height="6" rx="3" fill="#7A6248"/>
+  <text x="24" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#2B241E">Java</text>
+  <text x="284" y="168" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5E5246">23.9%</text>
+  <rect x="24" y="178" width="260" height="6" rx="3" fill="#EDE5DA"/>
+  <rect x="24" y="178" width="62.2" height="6" rx="3" fill="#7A6248"/>
+  <text x="308" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#2B241E">PHP</text>
+  <text x="568" y="72" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5E5246">19.7%</text>
+  <rect x="308" y="82" width="260" height="6" rx="3" fill="#EDE5DA"/>
+  <rect x="308" y="82" width="51.2" height="6" rx="3" fill="#7A6248"/>
+  <text x="308" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#2B241E">Dart</text>
+  <text x="568" y="120" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5E5246">1.4%</text>
+  <rect x="308" y="130" width="260" height="6" rx="3" fill="#EDE5DA"/>
+  <rect x="308" y="130" width="3.5" height="6" rx="3" fill="#7A6248"/>
+  <text x="308" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#2B241E">C</text>
+  <text x="568" y="168" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5E5246">0.6%</text>
+  <rect x="308" y="178" width="260" height="6" rx="3" fill="#EDE5DA"/>
+  <rect x="308" y="178" width="3.0" height="6" rx="3" fill="#7A6248"/>
+  <text x="24" y="204" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#5E5246">source bytes across owned and contributed public repos (markup and notebooks excluded)</text>
+</svg>

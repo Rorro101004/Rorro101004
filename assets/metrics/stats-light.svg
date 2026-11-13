@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-label="GitHub activity">
+  <title>GitHub activity</title>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="12" fill="#FAF7F2" stroke="#E3D9CC"/>
+  <text x="24" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#2B241E">GitHub activity</text>
+  <text x="576" y="36" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#5E5246">updated 2026-11-13</text>
+  <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5E5246">Contributions (12 mo)</text>
+  <text x="24" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#2B241E">139</text>
+  <text x="208" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5E5246">Commits</text>
+  <text x="208" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#2B241E">103</text>
+  <text x="392" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5E5246">Pull requests</text>
+  <text x="392" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#2B241E">14</text>
+  <text x="24" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5E5246">Public repositories</text>
+  <text x="24" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#2B241E">8</text>
+  <text x="208" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5E5246">Contributed to</text>
+  <text x="208" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#2B241E">3</text>
+  <text x="392" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#5E5246">Stars earned</text>
+  <text x="392" y="150" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#2B241E">2</text>
+  <rect x="24.0" y="197.3" width="8.6" height="2.7" rx="1.5" fill="#7A6248"/>
+  <rect x="34.6" y="190.7" width="8.6" height="9.3" rx="1.5" fill="#7A6248"/>
+  <rect x="45.2" y="194.7" width="8.6" height="5.3" rx="1.5" fill="#7A6248"/>
+  <rect x="55.8" y="181.3" width="8.6" height="18.7" rx="1.5" fill="#7A6248"/>
+  <rect x="66.5" y="196.0" width="8.6" height="4.0" rx="1.5" fill="#7A6248"/>
+  <rect x="77.1" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="87.7" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#7A6248"/>
+  <rect x="98.3" y="196.0" width="8.6" height="4.0" rx="1.5" fill="#7A6248"/>
+  <rect x="108.9" y="190.7" width="8.6" height="9.3" rx="1.5" fill="#7A6248"/>
+  <rect x="119.5" y="196.0" width="8.6" height="4.0" rx="1.5" fill="#7A6248"/>
+  <rect x="130.2" y="194.7" width="8.6" height="5.3" rx="1.5" fill="#7A6248"/>
+  <rect x="140.8" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="151.4" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="162.0" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="172.6" y="197.3" width="8.6" height="2.7" rx="1.5" fill="#7A6248"/>
+  <rect x="183.2" y="196.0" width="8.6" height="4.0" rx="1.5" fill="#7A6248"/>
+  <rect x="193.8" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#7A6248"/>
+  <rect x="204.5" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="215.1" y="197.3" width="8.6" height="2.7" rx="1.5" fill="#7A6248"/>
+  <rect x="225.7" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="236.3" y="192.0" width="8.6" height="8.0" rx="1.5" fill="#7A6248"/>
+  <rect x="246.9" y="186.7" width="8.6" height="13.3" rx="1.5" fill="#7A6248"/>
+  <rect x="257.5" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#7A6248"/>
+  <rect x="268.2" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="278.8" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="289.4" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="300.0" y="160.0" width="8.6" height="40.0" rx="1.5" fill="#7A6248"/>
+  <rect x="310.6" y="194.7" width="8.6" height="5.3" rx="1.5" fill="#7A6248"/>
+  <rect x="321.2" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="331.8" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="342.5" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="353.1" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="363.7" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="374.3" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="384.9" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="395.5" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="406.2" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="416.8" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="427.4" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="438.0" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="448.6" y="197.3" width="8.6" height="2.7" rx="1.5" fill="#7A6248"/>
+  <rect x="459.2" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#7A6248"/>
+  <rect x="469.8" y="196.0" width="8.6" height="4.0" rx="1.5" fill="#7A6248"/>
+  <rect x="480.5" y="177.3" width="8.6" height="22.7" rx="1.5" fill="#7A6248"/>
+  <rect x="491.1" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="501.7" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="512.3" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="522.9" y="197.3" width="8.6" height="2.7" rx="1.5" fill="#7A6248"/>
+  <rect x="533.5" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="544.2" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="554.8" y="198.0" width="8.6" height="2.0" rx="1.5" fill="#EDE5DA"/>
+  <rect x="565.4" y="194.7" width="8.6" height="5.3" rx="1.5" fill="#7A6248"/>
+  <text x="24" y="214" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#5E5246">weekly contributions, last 52 weeks</text>
+</svg>

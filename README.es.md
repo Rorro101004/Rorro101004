@@ -1,190 +1,133 @@
-<div align="center">
+<p align="center">
+  <a href="./README.md">English</a> · <b>Español</b>
+</p>
 
-  <h1>Rodrigo Calderón</h1>
-  <h3>Desarrollador de Aplicaciones Multiplataforma · Backend, ERP & Data Pipelines</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Rodrigo Calderón - Desarrollador Backend Junior, Ingeniería de Datos y Automatización" src="assets/banner-light.svg" width="100%">
+</picture>
 
-  <p>
-    <a href="./README.md">English</a> | <b>Español</b>
-  </p>
+<p align="center">
+  <a href="#enfoque">Enfoque</a> ·
+  <a href="#stack">Stack</a> ·
+  <a href="#proyectos-destacados">Proyectos</a> ·
+  <a href="#experiencia">Experiencia</a> ·
+  <a href="#métricas">Métricas</a> ·
+  <a href="#contacto">Contacto</a>
+</p>
 
-  <p>
-    <a href="mailto:roro.calderon@hotmail.com">
-      <img src="https://img.shields.io/badge/Outlook-Contactar-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"/>
-    </a>
-    <a href="https://www.linkedin.com/in/rodrigo-calderon-dev/">
-      <img src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-  </p>
+Desarrollador de software junior (Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma, DAM**) con base en **Barcelona**. Construyo servicios backend, pipelines de datos y herramientas de automatización que reemplazan procesos manuales por código probado y mantenible.
 
-  <p align="center">
-    <a href="#sobre-mí">Sobre mí</a> •
-    <a href="#stack-tecnológico--herramientas">Stack Tecnológico</a> •
-    <a href="#proyectos-destacados">Proyectos Destacados</a> •
-    <a href="#contacto">Contacto</a>
-  </p>
+## Enfoque
 
-</div>
+- **Backend:** APIs REST con Java y Spring Boot, modelado relacional e integridad transaccional.
+- **Ingeniería de datos:** Pipelines en Python para ingesta, validación y análisis (pandas, SQL).
+- **Automatización y calidad:** Integración continua con GitHub Actions, refactorización guiada por tests y herramientas asistidas por IA con puntos de control humano.
+- **Búsqueda activa:** Roles de Junior Backend / Data Engineering (presencial, híbrido o remoto). Acostumbrado a trabajar íntegramente en inglés en equipos ágiles internacionales.
 
----
+## Stack
 
-### Sobre mí
-
-Desarrollador de Software Junior y Técnico Superior en **Desarrollo de Aplicaciones Multiplataforma (DAM)** enfocado en arquitecturas backend, automatización de flujos operativos y tratamiento de datos.
-
-* **Experiencia Profesional:** Desarrollo de módulos de contabilidad interna y facturación recurrente en **C#**, optimizando esquemas de bases de datos relacionales en **BittaSoftware**.
-* **Movilidad Internacional:** Co-diseño de un pipeline de ingesta de datos y análisis predictivo en un equipo ágil internacional (Proyecto Rumanía), operando íntegramente en inglés durante la planificación de sprints, sincronizaciones técnicas y revisiones de código.
-* **Filosofía Técnica:** Ingeniería de arquitecturas backend limpias, flujos ERP (Odoo) y sustitución de cuellos de botella manuales por servicios automatizados robustos.
-* **Objetivo Actual:** En búsqueda de roles de Junior Software Engineer / Backend Developer para integrarme en entornos productivos, colaborar con equipos experimentados y escalar sistemas de software.
-* **Ubicación:** Barcelona, España (Abierto a modalidades presenciales e híbridas).
-
----
-
-### Stack Tecnológico & Herramientas
-
-<div align="center">
+<sub>Cada tecnología listada es trazable a código real en al menos un repositorio público.</sub>
 
 | Área | Tecnologías |
 | :--- | :--- |
-| **Lenguajes** | ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)|
-| **Empresa & Datos** | ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)|
-| **Bases de Datos** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) |
-| **Frameworks & Core** | ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) |
+| **Lenguajes** | ![Java](https://img.shields.io/badge/Java-2B241E?style=flat-square&logo=openjdk&logoColor=C9B497) ![Python](https://img.shields.io/badge/Python-2B241E?style=flat-square&logo=python&logoColor=C9B497) ![Kotlin](https://img.shields.io/badge/Kotlin-2B241E?style=flat-square&logo=kotlin&logoColor=C9B497) ![SQL](https://img.shields.io/badge/SQL-2B241E?style=flat-square&logo=mysql&logoColor=C9B497) ![PHP](https://img.shields.io/badge/PHP-2B241E?style=flat-square&logo=php&logoColor=C9B497) ![Dart](https://img.shields.io/badge/Dart-2B241E?style=flat-square&logo=dart&logoColor=C9B497) |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-2B241E?style=flat-square&logo=springboot&logoColor=C9B497) ![Hibernate](https://img.shields.io/badge/Hibernate_/_JPA-2B241E?style=flat-square&logo=hibernate&logoColor=C9B497) ![OpenAPI](https://img.shields.io/badge/OpenAPI-2B241E?style=flat-square&logo=openapiinitiative&logoColor=C9B497) ![Maven](https://img.shields.io/badge/Maven-2B241E?style=flat-square&logo=apachemaven&logoColor=C9B497) |
+| **Datos** | ![pandas](https://img.shields.io/badge/pandas-2B241E?style=flat-square&logo=pandas&logoColor=C9B497) ![NumPy](https://img.shields.io/badge/NumPy-2B241E?style=flat-square&logo=numpy&logoColor=C9B497) ![Jupyter](https://img.shields.io/badge/Jupyter-2B241E?style=flat-square&logo=jupyter&logoColor=C9B497) ![Matplotlib](https://img.shields.io/badge/Matplotlib_/_seaborn-2B241E?style=flat-square) |
+| **Bases de datos** | ![MySQL](https://img.shields.io/badge/MySQL-2B241E?style=flat-square&logo=mysql&logoColor=C9B497) ![MongoDB](https://img.shields.io/badge/MongoDB-2B241E?style=flat-square&logo=mongodb&logoColor=C9B497) ![SQLite](https://img.shields.io/badge/SQLite-2B241E?style=flat-square&logo=sqlite&logoColor=C9B497) |
+| **Móvil** | ![Android](https://img.shields.io/badge/Android-2B241E?style=flat-square&logo=android&logoColor=C9B497) ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-2B241E?style=flat-square&logo=jetpackcompose&logoColor=C9B497) |
+| **Calidad y DevOps** | ![pytest](https://img.shields.io/badge/pytest-2B241E?style=flat-square&logo=pytest&logoColor=C9B497) ![JUnit](https://img.shields.io/badge/JUnit_5-2B241E?style=flat-square&logo=junit5&logoColor=C9B497) ![Ruff](https://img.shields.io/badge/Ruff_/_mypy-2B241E?style=flat-square&logo=ruff&logoColor=C9B497) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2B241E?style=flat-square&logo=githubactions&logoColor=C9B497) ![Postman](https://img.shields.io/badge/Postman-2B241E?style=flat-square&logo=postman&logoColor=C9B497) ![Git](https://img.shields.io/badge/Git-2B241E?style=flat-square&logo=git&logoColor=C9B497) |
 
-</div>
+## Proyectos destacados
 
----
+| Proyecto | Descripción | Stack | Rol |
+| :--- | :--- | :--- | :--- |
+| [**ZeroBreak**](https://github.com/Rorro101004/ZeroBreak) | Framework SDD y CLI para refactorizar Python sin romper contratos: línea base con pytest, guardas de integridad SHA-256, copia de respaldo didáctica, aplicación protegida con rollback automático y generación de tests con Golden Master e Hypothesis. CI en Ubuntu y Windows, 100 % de cobertura. | Python 3.12, pytest, Hypothesis, ruff, mypy, GitHub Actions | Autor |
+| **EasyTeeth** · [API](https://github.com/JoanMarcMM/EasyTeeth_BackEnd) · [Android](https://github.com/JoanMarcMM/EasyTeeth_FrontEnd) | Gestión de clínica dental: turnos de citas, asignación de boxes clínicos e historial de pacientes. API REST con documentación OpenAPI y cliente nativo Android. Proyecto de 9 meses, equipo de 4. | Spring Boot 4, JPA, MySQL, Kotlin, Compose, Retrofit | Capa de red en Android y endpoints REST |
+| [**Hospital API**](https://github.com/JoanMarcMM/Hospital_Project) | API REST para gestión de enfermería: CRUD, búsqueda y autenticación, con tests de controlador, colección Postman y CI. Equipo de 4. | Spring Boot, Maven, JUnit, Postman, GitHub Actions | Desarrollador backend |
+| [**People MVC (Foxtrot)**](https://github.com/Joan735/Foxtrot) | Aplicación CRUD multi-almacenamiento bajo arquitectura MVC estricta con persistencia intercambiable (SQL, ObjectDB, ficheros), suite JUnit 5 y CI con Maven. | Java 17, MySQL, ObjectDB, JUnit 5, GitHub Actions | Coautor (37 commits) |
+| [**Capa de acceso a datos**](https://github.com/Rorro101004/RA1AccesoAdatos) | Sistema de gestión de tienda que intercambia motores de persistencia tras una interfaz DAO: JDBC, Hibernate, MongoDB y ObjectDB. | Java 17, JDBC, Hibernate, MongoDB, Maven | Autor |
+| **Notebooks de datos** · [EDA](https://github.com/Rorro101004/RA3-DataSets) · [Prueba ETL](https://github.com/Rorro101004/PruebaTecnica) | Análisis exploratorio de ventas de videojuegos (ingeniería de variables, cortes regionales, outliers) y ejercicio de ingeniería de datos: normalización, validación, hashes de deduplicación y carga en SQLite con aserciones. | pandas, NumPy, seaborn, sqlite3 | Autor |
+| [**NexTech**](https://github.com/Rorro101004/Nextech) | Plataforma de eventos tecnológicos con registro de usuarios, autenticación y CRUD de eventos sobre una estructura MVC en PHP. Equipo de 3. | PHP, MVC, CSS | Project manager y backend |
 
-### Proyectos Destacados
+## Experiencia
 
----
+<details>
+<summary><b>Desarrollador de Software en Prácticas · BittaSoftware</b> - automatización contable y facturación recurrente (código privado)</summary>
 
-#### 1. Pipeline Predictivo Inmobiliario & Analítica Empresarial
-> Arquitectura Medallion multicapa para el procesamiento de flujos de datos en crudo hacia modelos predictivos y reporting empresarial.
-
-```mermaid
-flowchart LR
-    A["<b>Ingesta en Crudo (Bronze)</b><br/>• Fuentes heterogéneas<br/>• Almacenamiento en Python"]
-    -->|Limpieza y Filtrado de Outliers| B["<b>Almacén Curado (Silver)</b><br/>• Modelado en Esquema de Estrella<br/>• Base de Datos PostgreSQL"]
-    -->|Agregaciones y KPIs| C["<b>Capa de Negocio (Gold)</b><br/>• Modelos Predictivos de ML<br/>• Métricas Estandarizadas"]
-    -->|Analítica y Simulación| D["<b>Endpoints de Negocio</b><br/>• Cuadros de Mando en Power BI<br/>• Validación Operativa en SAP"]
-
-    classDef default fill:#161b22,stroke:#0078d4,stroke-width:1.5px,color:#e6edf3;
-```
-* **Contexto y Colaboración Internacional:** Co-diseñado en un equipo ágil internacional (España, Suiza, Rumanía y Portugal), coordinando dailies, flujos de ramas en Git y entregas técnicas íntegramente en inglés.
-* **Arquitectura de Pipeline Medallion:**
-  * **Capa Bronze:** Extracción y almacenamiento automatizado de datos inmobiliarios y registros de mercado sin procesar.
-  * **Capa Silver:** Depuración de nulos, detección de anomalías y modelado dimensional en estrella dentro de **PostgreSQL**.
-  * **Capa Gold:** Ejecución de pipelines de agregación analítica y entrenamiento de modelos predictivos de tendencias con **Pandas** y computación científica.
-* **Reporting y Validación Operativa:** Diseño de paneles interactivos en **Power BI** e integración de salidas operativas sobre entornos **SAP** para validar casos de negocio.
-* **Impacto:** Reducción del tiempo de preparación de datos de horas de procesamiento manual por sprint a scripts automatizados ejecutables en menos de 2 minutos.
-* **Tech Stack:**
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-  <img src="https://img.shields.io/badge/SAP-008FD3?style=flat-square&logo=sap&logoColor=white"/>
-
----
-
-#### 2. Automatización Contable & Facturación Empresarial
-> Módulo de facturación recurrente y automatización contable de alta integridad para operativa empresarial.
+<br>
 
 ```mermaid
 flowchart LR
-    A["<b>Capa de Cliente (UI)</b><br/>WinForms Desktop (.NET)<br/>• Interfaces Transaccionales<br/>• Validación de Entrada de Datos<br/>• Flujos de Trabajo Modulares"]
-    -->|Payloads Seguros HTTPS / JSON| B["<b>Capa de Lógica y API</b><br/>ASP.NET Core REST API<br/>• Controladores y Enrutamiento<br/>• Validación y Reglas de Negocio<br/>• Desacoplamiento de Cliente"]
-    -->|ADO.NET y Stored Procedures| C["<b>Capa de Persistencia</b><br/>SQL Server Database<br/>• Procedimientos Almacenados<br/>• Control de Registros Duplicados<br/>• Bloqueos Transaccionales ACID"]
-    -->|Pipeline Batch Automatizado| D["<b>Salida de Contabilidad</b><br/>Libro Mayor Empresarial<br/>• Registro Automatizado de Facturas<br/>• Procesamiento Recurrente en Lote<br/>• Informes de Cierre Financiero"]
-
-    classDef default fill:#161b22,stroke:#239120,stroke-width:1.5px,color:#e6edf3;
+    A["Cliente WinForms (.NET)<br/>entrada y validación de facturas"] -->|HTTPS / JSON| B["API REST ASP.NET Core<br/>reglas de negocio"]
+    B -->|ADO.NET, stored procedures| C["SQL Server<br/>control de duplicados, bloqueos ACID"]
+    C -->|pipeline por lotes| D["Libro contable<br/>facturación recurrente e informes"]
 ```
-* **Contexto y Estructura del Equipo:** Desarrollado en entorno de producción durante prácticas profesionales en **BittaSoftware**, colaborando directamente en una célula técnica de 2 personas junto a la Desarrolladora Senior mediante pair programming y revisiones de código.
-* **Arquitectura e Interfaz:** Implementación de interfaces transaccionales de escritorio en **WinForms (.NET)** para optimizar la entrada administrativa de datos contables.
-* **API y Enrutamiento:** Construcción de controladores desacoplados en **ASP.NET Core** para abstraer al cliente de operaciones directas sobre base de datos y securizar payloads.
-* **Seguridad Transaccional:** Programación de stored procedures robustos en **SQL Server** con control de bloqueos y restricciones de concurrencia ACID para evitar facturas duplicadas.
-* **Impacto:** Sustitución de flujos manuales basados en hojas de cálculo, ahorrando entre 5 y 7 horas de trabajo administrativo semanales.
-* **Tech Stack:**
-  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WinForms-239120?style=flat-square&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
 
----
+- Desarrollo de interfaces de escritorio transaccionales en **WinForms (.NET)** conectadas a una capa REST en **ASP.NET Core**.
+- Programación de procedimientos almacenados y validaciones en **SQL Server** para evitar facturas duplicadas bajo concurrencia.
+- Trabajo en una unidad de 2 personas junto a la desarrolladora sénior (pair programming y revisión de código).
+- Impacto: sustitución de carga manual entre hojas de cálculo, ahorrando entre 5 y 7 horas administrativas por semana.
 
-#### 3. EasyTeeth · Sistema de Gestión Clínica & Planificación Dental
-> Sistema multiplataforma distribuido para la coordinación en tiempo real de boxes quirúrgicos, turnos médicos y expedientes clínicos.
+</details>
+
+<details>
+<summary><b>Proyecto internacional (Rumanía)</b> - pipeline predictivo inmobiliario y analítica (código privado)</summary>
+
+<br>
 
 ```mermaid
 flowchart LR
-    A["<b>Cliente Móvil (Kotlin)</b><br/>• Arquitectura MVVM<br/>• Retrofit 2 + Coroutines<br/>• Ejecución Asíncrona sin Bloqueo"]
-    -->|Llamadas Asíncronas REST| B["<b>API de Enrutamiento</b><br/>• Gestión de Citas y Turnos<br/>• Activos Médicos y Odontogramas<br/>• Historial de Pacientes"]
-    -->|Spring Boot e Hibernate| C["<b>Persistencia en MySQL</b><br/>• Restricciones Relacionales<br/>• Bloqueo ACID de Quirófanos<br/>• Historiales Clínicos"]
-
-    classDef default fill:#161b22,stroke:#7f52ff,stroke-width:1.5px,color:#e6edf3;
+    A["Bronze<br/>ingesta multifuente (Python)"] -->|limpieza y outliers| B["Silver<br/>esquema en estrella (PostgreSQL)"]
+    B -->|agregaciones y KPIs| C["Gold<br/>modelos predictivos"]
+    C -->|reporting| D["Paneles Power BI<br/>validación en SAP"]
 ```
-* **Contexto y Trabajo en Equipo:** Co-desarrollado a lo largo de un ciclo de 9 meses (septiembre a mayo) en un equipo de 4 desarrolladores en STUCOM (Barcelona), liderando las iteraciones ágiles, estrategias de branching en Git y la arquitectura de consumo de red en Android.
-* **Cliente Móvil:** Desarrollo de interfaz móvil nativa en **Android Studio con Kotlin**, consumiendo servicios REST asíncronos mediante **Retrofit 2** y **Coroutines (`suspend fun`)** sin retardo en el hilo visual.
-* **Arquitectura de Backend:** API REST modular construida con **Java y Spring Boot**, gestionando disponibilidad de turnos odontológicos (`/available-slots`) y resolución de concurrencia por box clínico.
-* **Testing y Documentación:** Validación de métodos HTTP, contratos JSON y simulación de estados de error mediante suites en **Postman**.
-* **Integridad Relacional:** Modelado de bloqueos a nivel de base de datos en **MySQL** para prevenir duplicidades o colisiones horarias en reservas simultáneas.
-* **Tech Stack:** 
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
 
----
+- Pipeline con arquitectura Medallion co-diseñado en un equipo ágil internacional (España, Suiza, Rumanía y Portugal), trabajando íntegramente en inglés.
+- Capa Silver modelada en **PostgreSQL**; agregaciones y modelos predictivos en capa Gold con **pandas**.
+- Cuadros de mando en **Power BI** y mapeo de salidas operativas hacia **SAP**.
+- Impacto: reducción de la preparación manual de datos de horas por sprint a ejecuciones automatizadas en menos de 2 minutos.
 
-#### 4. Automatización de Flujos Empresariales & ERP a Medida
-> Desarrollo de módulos a medida, ampliación de lógica de negocio e integración relacional sobre el ecosistema Odoo.
+</details>
+
+<details>
+<summary><b>Proyecto académico · STUCOM</b> - módulos ERP a medida en Odoo (código privado)</summary>
+
+<br>
 
 ```mermaid
 flowchart LR
-    A["<b>Capa de Presentación (UI)</b><br/>Interfaz Web Odoo<br/>• Vistas y Formularios XML<br/>• Layouts Kanban y Árbol<br/>• Disparadores de Acciones"]
-    -->|Peticiones de Usuario y RPC| B["<b>Capa de Lógica de Negocio</b><br/>Python y Odoo ORM<br/>• Reglas de Negocio Modulares<br/>• Campos Computados Automáticos<br/>• Hooks de Eventos del Pipeline"]
-    -->|Consultas Relacionales ORM| C["<b>Capa de Persistencia</b><br/>Base de Datos PostgreSQL<br/>• Control de Integridad Relacional<br/>• Bloqueo Transaccional de Tablas<br/>• Auditoría Automatizada de Datos"]
-    -->|Automatización de Flujos| D["<b>Salida Operativa</b><br/>Flujos Empresariales<br/>• Actualización de Stock en Tiempo Real<br/>• Pedidos de Venta Automatizados<br/>• Exportaciones Sincronizadas"]
-
-    classDef default fill:#161b22,stroke:#714B67,stroke-width:1.5px,color:#e6edf3;
+    A["Interfaz web Odoo<br/>vistas XML, kanban y formularios"] -->|RPC| B["Python + Odoo ORM<br/>reglas de negocio y campos computados"]
+    B -->|consultas ORM| C["PostgreSQL<br/>restricciones y auditoría"]
+    C -->|automatización| D["Flujos de ventas e inventario"]
 ```
-* **Contexto y Colaboración en Equipo:** Co-desarrollado en un equipo de 3 desarrolladores en STUCOM (Barcelona), colaborando en la especificación técnica de módulos, flujos de control de versiones y mapeo de requerimientos operativos.
-* **Arquitectura de Negocio:** Desarrollo de extensiones modulares utilizando **Python** y el **ORM de Odoo** para automatizar el flujo operativo de ventas y gestión de inventario.
-* **Integración de Datos:** Definición de restricciones relacionales y persistencia automatizada de registros respaldada por **PostgreSQL**.
-* **Tech Stack:**
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
 
----
-#### 5. NexTech · Portal de Descubrimiento de Eventos Tech & Ticketing (Frontend PoC)
-> Plataforma de descubrimiento basada en geolocalización que centraliza eventos tecnológicos regionales con redirección de compra de entradas.
+- Extensiones modulares en **Python** con el **ORM de Odoo** para automatizar flujos de ventas e inventario en un equipo de 3 desarrolladores.
+- Restricciones relacionales y sincronización automatizada de registros sobre **PostgreSQL**.
 
-```mermaid
-flowchart LR
-    A["<b>Navegador y UI</b><br/>HTML5 Semántico y CSS3<br/>• Grid Responsivo Mobile-First<br/>• Catálogo Dinámico de Eventos<br/>• Entradas de Categoría y Zona"]
-    -->|Eventos del DOM y Filtrado| B["<b>Lógica en Cliente (PoC)</b><br/>Motor Vanilla JavaScript<br/>• Motor de Filtrado y Estado<br/>• Ingesta de Datos Simulados (JSON)<br/>• Inyección Dinámica en el DOM"]
-    -->|Simulación de Compra| C["<b>Capa de Simulación de Referidos</b><br/>Prototipo de Ticketing<br/>• Redirección con Enlaces Profundos<br/>• Simulación de Reserva de Plaza<br/>• Modelos de Tráfico Saliente"]
+</details>
 
-    classDef default fill:#161b22,stroke:#f7df1e,stroke-width:1.5px,color:#e6edf3;
-```
-* **Contexto y Colaboración en Equipo:** Desarrollado en un equipo de 3 integrantes en STUCOM (Barcelona) como una Prueba de Concepto (PoC) frontend para evaluar la velocidad de renderizado en el DOM con JavaScript puro y validar experiencias de usuario.
-* **Arquitectura del Cliente:** Implementación de algoritmos de filtrado dinámico en **JavaScript vanilla** procesando datasets JSON estructurados para simular consultas en tiempo real por proximidad geográfica y tipología de evento.
-* **Simulación de Flujo de Conversión:** Diseño de patrones de *deep-linking* saliente emulando la transferencia fluida del usuario hacia plataformas externas de ticketing y asignación de asientos.
-* **Maquetación sin Dependencias:** Construcción de una interfaz ligera y *mobile-first* mediante **HTML5** semántico y **CSS3** moderno (Flexbox/Grid), eliminando la sobrecarga de dependencias pesadas.
-* **Tech Stack:**
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+## Métricas
 
----
-### Contacto
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/metrics/stats-light.svg">
+    <img alt="Actividad en GitHub durante los últimos 12 meses" src="assets/metrics/stats-light.svg" width="49%">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/metrics/languages-light.svg">
+    <img alt="Lenguajes más usados en repositorios públicos" src="assets/metrics/languages-light.svg" width="49%">
+  </picture>
+</p>
 
-Actualmente disponible para posiciones de **Junior Backend Developer**, **Data Engineering** y **Consultoría ERP** en Barcelona (modalidad presencial o híbrida).
+<p align="center"><sub>Generadas diariamente mediante un workflow de GitHub Actions en este repositorio, sin depender de servicios externos.</sub></p>
 
-<a href="mailto:roro.calderon@hotmail.com"><img src="https://img.shields.io/badge/OUTLOOK-CONTACT_ME-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/rodrigo-calderon-dev/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+## Contacto
 
-No dudes en contactarme para consultas técnicas, colaboraciones en proyectos u oportunidades profesionales en ingeniería de software.
+Disponible para posiciones de **Junior Backend Developer**, **Data Engineering** y **ERP / automatización**.
+
+<a href="mailto:roro.calderon@hotmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-roro.calderon%40hotmail.com-2B241E?style=flat-square&logo=maildotru&logoColor=C9B497"></a>
+<a href="https://www.linkedin.com/in/rodrigo-calderon-dev/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rodrigo--calderon--dev-2B241E?style=flat-square"></a>
