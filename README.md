@@ -28,7 +28,7 @@ Junior software developer (Higher Technician in **Multiplatform Application Deve
 
 ## Stack
 
-<sub>Every item below is traceable to code in a public repository.</sub>
+<sub>Public stack is traceable to code in public repositories; the bottom row reflects documented experience in private/internship environments.</sub>
 
 | Area | Technologies |
 | :--- | :--- |
@@ -38,6 +38,7 @@ Junior software developer (Higher Technician in **Multiplatform Application Deve
 | **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-2B241E?style=flat-square&logo=mysql&logoColor=C9B497) ![MongoDB](https://img.shields.io/badge/MongoDB-2B241E?style=flat-square&logo=mongodb&logoColor=C9B497) ![SQLite](https://img.shields.io/badge/SQLite-2B241E?style=flat-square&logo=sqlite&logoColor=C9B497) |
 | **Mobile** | ![Android](https://img.shields.io/badge/Android-2B241E?style=flat-square&logo=android&logoColor=C9B497) ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-2B241E?style=flat-square&logo=jetpackcompose&logoColor=C9B497) |
 | **Quality and DevOps** | ![pytest](https://img.shields.io/badge/pytest-2B241E?style=flat-square&logo=pytest&logoColor=C9B497) ![JUnit](https://img.shields.io/badge/JUnit_5-2B241E?style=flat-square&logo=junit5&logoColor=C9B497) ![Ruff](https://img.shields.io/badge/Ruff_/_mypy-2B241E?style=flat-square&logo=ruff&logoColor=C9B497) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2B241E?style=flat-square&logo=githubactions&logoColor=C9B497) ![Postman](https://img.shields.io/badge/Postman-2B241E?style=flat-square&logo=postman&logoColor=C9B497) ![Git](https://img.shields.io/badge/Git-2B241E?style=flat-square&logo=git&logoColor=C9B497) |
+| **Private & Experience** | ![C#](https://img.shields.io/badge/C%23-2B241E?style=flat-square&logo=csharp&logoColor=C9B497) ![.NET WinForms](https://img.shields.io/badge/.NET_WinForms-2B241E?style=flat-square&logo=dotnet&logoColor=C9B497) ![SQL Server](https://img.shields.io/badge/SQL_Server-2B241E?style=flat-square&logo=microsoftsqlserver&logoColor=C9B497) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2B241E?style=flat-square&logo=postgresql&logoColor=C9B497) ![Docker](https://img.shields.io/badge/Docker-2B241E?style=flat-square&logo=docker&logoColor=C9B497) ![Odoo](https://img.shields.io/badge/Odoo-2B241E?style=flat-square&logo=odoo&logoColor=C9B497) ![Power BI](https://img.shields.io/badge/Power_BI-2B241E?style=flat-square&logo=powerbi&logoColor=C9B497) ![SAP](https://img.shields.io/badge/SAP-2B241E?style=flat-square&logo=sap&logoColor=C9B497) |
 
 ## Featured projects
 
